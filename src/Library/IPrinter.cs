@@ -1,8 +1,10 @@
 
 namespace Full_GRASP_And_SOLID
 {
+    //Uso DIP
     public interface IPrinter
     {
-         void PrintRecipe(Recipe recipe);
+        
+         void PrintRecipe(IRecipe recipe);
     }
 }
